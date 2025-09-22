@@ -1,4 +1,4 @@
-import { Color } from "./Color";
+import type { Color } from "./Color";
 
 export class Blue implements Color {
   applyColor(): string {
