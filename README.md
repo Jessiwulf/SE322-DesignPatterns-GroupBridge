@@ -1,3 +1,45 @@
+## GOF Presentation Submit
+### Group Bridge
+**Canva URL**
+https://www.canva.com/design/DAG0RHAHliU/3iPbkq24i3D7u4Cw7JG8og/edit?utm_content=DAG0RHAHliU&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+
+**Youtube URL**
+
+
+**Slide presentation .pdf (29.09.2025)**
+
+
+## Group Assignment — Bridge Pattern
+
+Our group was assigned the Bridge Pattern.
+Since the baseline project (score_v0.ts) was designed for the Strategy Pattern, we decided to keep the original files and tests untouched (to preserve correctness), and implement Bridge separately.
+
+🔹 What We Added
+
+src/bridge/ → Contains our Bridge implementation.
+
+Abstractions: Shape, with refined abstractions Circle, Square.
+
+Implementors: Color, with concrete implementors Red, Blue.
+
+tests/bridge.spec.ts → Unit tests to confirm Bridge works as expected.
+
+🔹 Why Bridge?
+
+The Bridge Pattern lets us decouple an abstraction (Shape) from its implementation (Color), so the two can vary independently.
+
+Without Bridge → we would need many redundant classes (CircleRed, CircleBlue, SquareRed, SquareBlue, …).
+
+With Bridge → Shapes and Colors can be combined dynamically at runtime.
+
+🔹 Verification
+
+✅ Original scoring tests still pass (score_v0.test.ts).
+
+✅ Our Bridge tests also pass (bridge.spec.ts).
+
+Total: 7 tests, 0 failures.
+
 # 7 Wonders Scoring — Baseline (No Patterns)
 
 ## Learning Goals
@@ -66,34 +108,3 @@ Each player represents a city and chooses cards that represent buildings, wonder
 - Wonders: Each city has its own Wonder board; building stages gives special powers or points.
 - Scoring: At the end of the third Age, all categories are scored, and the player with the highest total wins.
 
-
-📌 Group Assignment — Bridge Pattern
-
-Our group was assigned the Bridge Pattern.
-Since the baseline project (score_v0.ts) was designed for the Strategy Pattern, we decided to keep the original files and tests untouched (to preserve correctness), and implement Bridge separately.
-
-🔹 What We Added
-
-src/bridge/ → Contains our Bridge implementation.
-
-Abstractions: Shape, with refined abstractions Circle, Square.
-
-Implementors: Color, with concrete implementors Red, Blue.
-
-tests/bridge.spec.ts → Unit tests to confirm Bridge works as expected.
-
-🔹 Why Bridge?
-
-The Bridge Pattern lets us decouple an abstraction (Shape) from its implementation (Color), so the two can vary independently.
-
-Without Bridge → we would need many redundant classes (CircleRed, CircleBlue, SquareRed, SquareBlue, …).
-
-With Bridge → Shapes and Colors can be combined dynamically at runtime.
-
-🔹 Verification
-
-✅ Original scoring tests still pass (score_v0.test.ts).
-
-✅ Our Bridge tests also pass (bridge.spec.ts).
-
-Total: 7 tests, 0 failures.
