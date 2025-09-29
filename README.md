@@ -7,7 +7,7 @@ https://www.canva.com/design/DAG0RHAHliU/3iPbkq24i3D7u4Cw7JG8og/edit?utm_content
 
 
 **Slide presentation .pdf (29.09.2025)**
-https://docs.google.com/presentation/d/1Fe3w3Nt2LLXRr4NKwdGP4Dce5uxD_G_O/edit?usp=sharing&ouid=115168390125953866156&rtpof=true&sd=true
+https://drive.google.com/file/d/1FzZEoTRFfgAf-XbgZIlE8GRclI93zjwD/view?usp=sharing
 
 ## Group Assignment — Bridge Pattern
 
