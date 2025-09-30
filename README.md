@@ -1,13 +1,16 @@
 ## GOF Presentation Submit
 ### Group Bridge
 **Canva URL**
+
 https://www.canva.com/design/DAG0RHAHliU/3iPbkq24i3D7u4Cw7JG8og/edit?utm_content=DAG0RHAHliU&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
 
 **Youtube URL**
-ยังอพโหลดไม่เสร็จครับ TwT
+
+https://youtu.be/WnvqI2F1teM
 
 **Slide presentation .pdf (29.09.2025)**
-https://drive.google.com/file/d/1ob1aiLyT70jEzAYOuTRT0rBMMy_HbHsd/view?usp=sharing
+
+https://drive.google.com/file/d/1aEkCFd3p7tggrPskNLXoscXf1HFrnU6p/view?usp=sharing
 
 ## Group Assignment — Bridge Pattern
 
