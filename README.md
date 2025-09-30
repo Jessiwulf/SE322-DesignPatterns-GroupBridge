@@ -12,6 +12,10 @@ https://youtu.be/WnvqI2F1teM
 
 https://drive.google.com/file/d/1aEkCFd3p7tggrPskNLXoscXf1HFrnU6p/view?usp=sharing
 
+**SA-EVAbot-GOF Instructions**
+
+https://docs.google.com/document/d/1Rvb7zbAfTILkrnP4RNbotFgKn1WaNAuhGnHy0fYOtGY/edit?usp=sharing
+
 ## Group Assignment — Bridge Pattern
 
 Our group was assigned the Bridge Pattern.
